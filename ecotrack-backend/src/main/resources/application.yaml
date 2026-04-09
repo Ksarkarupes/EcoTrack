@@ -32,3 +32,6 @@ app:
     secret: ${JWT_SECRET}
     access-expiration: ${JWT_EXPIRATION}
     refresh-expiration: ${REFRESH_EXPIRATION}
+  ollama:
+    url: ${OLLAMA_URL:http://localhost:11434/api/generate}
+    model: ${OLLAMA_MODEL:deepseek-r1:1.5b}
