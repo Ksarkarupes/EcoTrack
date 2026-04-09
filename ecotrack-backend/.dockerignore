@@ -1,0 +1,7 @@
+target/*
+!target/ecotrack-backend-0.0.1-SNAPSHOT.jar
+.git
+.gitignore
+node_modules
+Dockerfile
+README.md
