@@ -26,6 +26,8 @@ spring:
       enabled: false
 
 app:
+  cors:
+    allowed-origins: ${FRONTEND_URL}
   jwt:
     secret: ${JWT_SECRET}
     access-expiration: ${JWT_EXPIRATION}
